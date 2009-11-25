@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Graphics="Microsoft.Xna.Framework.Graphics" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Models\Chessboard.FBX</Source>
+      <Name>Models\Chessboard</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\Chessboard.xnb</Output>
+      <Time>2009-11-25T15:49:26.6664+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Chessboard_0.xml</Key>
+        <Value>2009-11-25T15:50:22.5934+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\ChessboardTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\PBlack\BlackBishop.FBX</Source>
+      <Name>Models\PBlack\BlackBishop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackBishop.xnb</Output>
+      <Time>2009-11-25T15:50:02.4154+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\PBlack\BlackBishop_0.xml</Key>
+        <Value>2009-11-25T15:50:26.8884+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\PBlack\BlackKing.FBX</Source>
+      <Name>Models\PBlack\BlackKing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackKing.xnb</Output>
+      <Time>2009-11-25T15:50:02.4174+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\PBlack\BlackKing_0.xml</Key>
+        <Value>2009-11-25T15:50:29.0364+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\PBlack\BlackKnight.FBX</Source>
+      <Name>Models\PBlack\BlackKnight</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackKnight.xnb</Output>
+      <Time>2009-11-25T15:50:02.4214+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\PBlack\BlackKnight_0.xml</Key>
+        <Value>2009-11-25T15:50:31.2534+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\PBlack\BlackPawn.FBX</Source>
+      <Name>Models\PBlack\BlackPawn</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackPawn.xnb</Output>
+      <Time>2009-11-25T15:50:02.4244+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\PBlack\BlackPawn_0.xml</Key>
+        <Value>2009-11-25T15:50:33.3844+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\PBlack\BlackQueen.FBX</Source>
+      <Name>Models\PBlack\BlackQueen</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackQueen.xnb</Output>
+      <Time>2009-11-25T15:50:02.4264+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\PBlack\BlackQueen_0.xml</Key>
+        <Value>2009-11-25T15:50:35.1714+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\PBlack\BlackRook.FBX</Source>
+      <Name>Models\PBlack\BlackRook</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackRook.xnb</Output>
+      <Time>2009-11-25T15:50:02.4324+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\PBlack\BlackRook_0.xml</Key>
+        <Value>2009-11-25T15:50:37.3424+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\PWhite\WhiteBishop.FBX</Source>
+      <Name>Models\PWhite\WhiteBishop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteBishop.xnb</Output>
+      <Time>2009-11-25T15:50:13.8204+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\PWhite\WhiteBishop_0.xml</Key>
+        <Value>2009-11-25T15:50:40.1254+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\PWhite\WhiteKing.FBX</Source>
+      <Name>Models\PWhite\WhiteKing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteKing.xnb</Output>
+      <Time>2009-11-25T15:50:13.8234+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\PWhite\WhiteKing_0.xml</Key>
+        <Value>2009-11-25T15:50:42.3164+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\PWhite\WhiteKnight.FBX</Source>
+      <Name>Models\PWhite\WhiteKnight</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteKnight.xnb</Output>
+      <Time>2009-11-25T15:50:13.8264+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\PWhite\WhiteKnight_0.xml</Key>
+        <Value>2009-11-25T15:50:44.5834+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\PWhite\WhitePawn.FBX</Source>
+      <Name>Models\PWhite\WhitePawn</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhitePawn.xnb</Output>
+      <Time>2009-11-25T15:50:13.8294+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\PWhite\WhitePawn_0.xml</Key>
+        <Value>2009-11-25T15:50:46.7114+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\PWhite\WhiteQueen.FBX</Source>
+      <Name>Models\PWhite\WhiteQueen</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteQueen.xnb</Output>
+      <Time>2009-11-25T15:50:13.8324+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\PWhite\WhiteQueen_0.xml</Key>
+        <Value>2009-11-25T15:50:48.4854+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\PWhite\WhiteRook.FBX</Source>
+      <Name>Models\PWhite\WhiteRook</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteRook.xnb</Output>
+      <Time>2009-11-25T15:50:13.8354+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\PWhite\WhiteRook_0.xml</Key>
+        <Value>2009-11-25T15:50:50.6514+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Chessboard.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Chessboard_0.xml</Output>
+      <Time>2009-11-25T15:49:26.6664+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\ChessboardTexture.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\ChessboardTexture_0.xnb</Output>
+      <Time>2009-11-25T15:49:26.6674+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PBlack\BlackBishop.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\PBlack\BlackBishop_0.xml</Output>
+      <Time>2009-11-25T15:50:02.4154+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PBlack\BlackTexture.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackTexture_0.xnb</Output>
+      <Time>2009-11-25T15:50:02.4344+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PBlack\BlackKing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\PBlack\BlackKing_0.xml</Output>
+      <Time>2009-11-25T15:50:02.4174+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PBlack\BlackKnight.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\PBlack\BlackKnight_0.xml</Output>
+      <Time>2009-11-25T15:50:02.4214+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PBlack\BlackPawn.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\PBlack\BlackPawn_0.xml</Output>
+      <Time>2009-11-25T15:50:02.4244+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PBlack\BlackQueen.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\PBlack\BlackQueen_0.xml</Output>
+      <Time>2009-11-25T15:50:02.4264+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PBlack\BlackRook.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\PBlack\BlackRook_0.xml</Output>
+      <Time>2009-11-25T15:50:02.4324+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PWhite\WhiteBishop.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\PWhite\WhiteBishop_0.xml</Output>
+      <Time>2009-11-25T15:50:13.8204+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PWhite\WhiteTexture.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteTexture_0.xnb</Output>
+      <Time>2009-11-25T15:50:13.8414+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PWhite\WhiteKing.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\PWhite\WhiteKing_0.xml</Output>
+      <Time>2009-11-25T15:50:13.8234+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PWhite\WhiteKnight.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\PWhite\WhiteKnight_0.xml</Output>
+      <Time>2009-11-25T15:50:13.8264+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PWhite\WhitePawn.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\PWhite\WhitePawn_0.xml</Output>
+      <Time>2009-11-25T15:50:13.8294+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PWhite\WhiteQueen.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\PWhite\WhiteQueen_0.xml</Output>
+      <Time>2009-11-25T15:50:13.8324+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\PWhite\WhiteRook.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\PWhite\WhiteRook_0.xml</Output>
+      <Time>2009-11-25T15:50:13.8354+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-28T01:16:14+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-28T01:16:06+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T01:16:16+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-28T01:16:26+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-28T01:16:12+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-28T01:16:06+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2009-10-29T11:03:05.961+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

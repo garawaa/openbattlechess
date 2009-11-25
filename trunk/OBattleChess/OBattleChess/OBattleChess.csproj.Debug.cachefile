@@ -1,0 +1,16 @@
+Content\Models\Chessboard.xnb
+Content\Models\PBlack\BlackBishop.xnb
+Content\Models\PBlack\BlackKing.xnb
+Content\Models\PBlack\BlackKnight.xnb
+Content\Models\PBlack\BlackPawn.xnb
+Content\Models\PBlack\BlackQueen.xnb
+Content\Models\PBlack\BlackRook.xnb
+Content\Models\PWhite\WhiteBishop.xnb
+Content\Models\PWhite\WhiteKing.xnb
+Content\Models\PWhite\WhiteKnight.xnb
+Content\Models\PWhite\WhitePawn.xnb
+Content\Models\PWhite\WhiteQueen.xnb
+Content\Models\PWhite\WhiteRook.xnb
+Content\Models\ChessboardTexture_0.xnb
+Content\Models\PBlack\BlackTexture_0.xnb
+Content\Models\PWhite\WhiteTexture_0.xnb
