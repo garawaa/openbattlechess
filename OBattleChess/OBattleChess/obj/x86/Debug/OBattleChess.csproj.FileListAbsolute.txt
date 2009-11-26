@@ -20,3 +20,4 @@ C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\OBatt
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\OBattleChess.pdb
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\obj\x86\Debug\OBattleChess.exe
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\obj\x86\Debug\OBattleChess.pdb
+C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\bauer11.xnb

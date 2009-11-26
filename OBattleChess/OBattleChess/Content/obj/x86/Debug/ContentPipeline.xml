@@ -319,7 +319,30 @@
       <Output>obj\x86\Debug\Models\PWhite\WhiteRook_0.xml</Output>
       <Time>2009-11-25T15:50:13.8354+01:00</Time>
     </Item>
-    <BuildSuccessful>true</BuildSuccessful>
+    <Item>
+      <Source>Models\bauer11.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\bauer11_0.xml</Output>
+      <Time>2009-11-26T08:48:35.782+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\bauer11.x</Source>
+      <Name>Models\bauer11</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\bauer11.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\bauer11.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\bauer11_1.xml</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <BuildSuccessful>false</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
