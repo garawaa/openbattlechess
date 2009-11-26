@@ -34,6 +34,7 @@ namespace OBattleChess
         Matrix cameraViewMatrix;
 
         GamePadState PrevGPS;
+        KeyboardState PrevKBS;
 
 
         public Game1()
@@ -69,12 +70,12 @@ namespace OBattleChess
 
             /* White King */
             WhiteKing.model = Content.Load<Model>("Models\\PWhite\\WhiteKing");
-            WhiteKing.position = logicHelper.ToChessBoardPos(1, 4);
+            WhiteKing.position = logicHelper.ToChessBoardPos(1, 5);
             GameObjectCollection.Add(WhiteKing);
 
             /* White Queen */
             WhiteQueen.model = Content.Load<Model>("Models\\PWhite\\WhiteQueen");
-            WhiteQueen.position = logicHelper.ToChessBoardPos(1, 5);
+            WhiteQueen.position = logicHelper.ToChessBoardPos(1, 4);
             GameObjectCollection.Add(WhiteQueen);
 
             /* White Rook 1 */
@@ -97,33 +98,35 @@ namespace OBattleChess
                 this.Exit();
 
             GamePadState Player1 = GamePad.GetState(PlayerIndex.One);
+            KeyboardState Player1K = Keyboard.GetState();
 
-            if (Player1.Buttons.RightShoulder == ButtonState.Released)
+            if (Player1K.IsKeyUp(Keys.LeftControl))
             {
 
-                if ((Player1.ThumbSticks.Left.X > 0.4f) && (PrevGPS.ThumbSticks.Left.X < 0.4f))
+
+                if ((Player1K.IsKeyDown(Keys.Right) && (PrevKBS.IsKeyUp(Keys.Right))))
                 {
                     //Right
                     WhiteKing.position -= new Vector3(0.0f, 14.8f, 0.0f);
 
                 }
-                if ((Player1.ThumbSticks.Left.X < -0.4f) && (PrevGPS.ThumbSticks.Left.X > -0.4f))
+                if ((Player1K.IsKeyDown(Keys.Left) && (PrevKBS.IsKeyUp(Keys.Left))))
                 {
                     //Left
                     WhiteKing.position += new Vector3(0.0f, 14.8f, 0.0f);
                 }
-                if ((Player1.ThumbSticks.Left.Y > 0.4f) && (PrevGPS.ThumbSticks.Left.Y < 0.4f))
+                if ((Player1K.IsKeyDown(Keys.Up) && (PrevKBS.IsKeyUp(Keys.Up))))
                 {
                     //Up
                     WhiteKing.position -= new Vector3(14.8f, 0.0f, 0.0f);
                 }
-                if ((Player1.ThumbSticks.Left.Y < -0.4f) && (PrevGPS.ThumbSticks.Left.Y > -0.4f))
+                if ((Player1K.IsKeyDown(Keys.Down) && (PrevKBS.IsKeyUp(Keys.Down))))
                 {
                     //Down
                     WhiteKing.position += new Vector3(14.8f, 0.0f, 0.0f);
                 }
 
-
+            }
 
 
                 if ((Player1.ThumbSticks.Right.X > 0.4f) && (PrevGPS.ThumbSticks.Right.X < 0.4f))
@@ -149,25 +152,39 @@ namespace OBattleChess
                 }
 
 
-                if (Player1.Buttons.A == ButtonState.Pressed)
+                if (Player1K.IsKeyDown(Keys.F1))
                 {
                     if (GameObjectCollection.Contains(WhiteRook) == false)
                         GameObjectCollection.Add(WhiteRook);
                 }
 
-            }
             //WhiteKing.scale += Player1.ThumbSticks.Right.Y;
-            else
+            if((Player1K.IsKeyDown(Keys.LeftControl)))
             {
+                if (Player1K.IsKeyDown(Keys.Right))
+                {
+                    cameraPosition.X += 0.5f;
+                }
+                if (Player1K.IsKeyDown(Keys.Left))
+                {
+                    cameraPosition.X -= 0.5f;
+                }
+                if (Player1K.IsKeyDown(Keys.Up))
+                {
+                    cameraPosition.Y += 0.5f;
+                }
+                if(Player1K.IsKeyDown(Keys.Down))
+                {
+                    cameraPosition.Y -= 0.5f;
+                }
 
-                cameraPosition.Y += Player1.ThumbSticks.Left.Y;
-                cameraPosition.X += Player1.ThumbSticks.Left.X;
-                cameraPosition.Z += Player1.ThumbSticks.Right.Y;
             }
 
 
 
             PrevGPS = Player1;
+            PrevKBS = Player1K;
+            
 
             //Chessboard.scale += Player1.ThumbSticks.Right.Y;
 
