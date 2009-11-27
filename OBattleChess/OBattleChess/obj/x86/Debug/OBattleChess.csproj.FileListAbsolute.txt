@@ -1,6 +1,5 @@
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\Chessboard.xnb
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackBishop.xnb
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackKing.xnb
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackKnight.xnb
@@ -13,11 +12,16 @@ C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Conte
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhitePawn.xnb
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteQueen.xnb
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteRook.xnb
-C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\ChessboardTexture_0.xnb
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PBlack\BlackTexture_0.xnb
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteTexture_0.xnb
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\OBattleChess.exe
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\OBattleChess.pdb
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\obj\x86\Debug\OBattleChess.exe
 C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\obj\x86\Debug\OBattleChess.pdb
-C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\bauer11.xnb
+C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\Turm02Texture.xnb
+C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\Turm02Texture_0.xnb
+C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\TurmFinalSchwarz03.xnb
+C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\Chessboard.xnb
+C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\ChessboardTexture_0.xnb
+C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\bauer118.xnb
+C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\bauer119.xnb

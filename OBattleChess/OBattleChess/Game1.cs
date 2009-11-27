@@ -69,9 +69,13 @@ namespace OBattleChess
             GameObjectCollection.Add(Chessboard);
 
             /* White King */
-            WhiteKing.model = Content.Load<Model>("Models\\PWhite\\WhiteKing");
+            WhiteKing.model = Content.Load<Model>("Models\\bauer119"); //("Models\\PWhite\\WhiteKing");
             WhiteKing.position = logicHelper.ToChessBoardPos(1, 5);
             GameObjectCollection.Add(WhiteKing);
+            WhiteKing.rotation = new Vector3(MathHelper.ToRadians(-90.0f), MathHelper.ToRadians(-90.0f), 0.0f);
+            WhiteKing.scale = 3.0f;
+            
+
 
             /* White Queen */
             WhiteQueen.model = Content.Load<Model>("Models\\PWhite\\WhiteQueen");
@@ -128,6 +132,8 @@ namespace OBattleChess
 
             }
 
+            if (Player1K.IsKeyDown(Keys.S)) WhiteKing.scale += 1.0f;
+            if (Player1K.IsKeyDown(Keys.X)) WhiteKing.scale -= 1.0f;
 
                 if ((Player1.ThumbSticks.Right.X > 0.4f) && (PrevGPS.ThumbSticks.Right.X < 0.4f))
                 {
@@ -176,6 +182,15 @@ namespace OBattleChess
                 if(Player1K.IsKeyDown(Keys.Down))
                 {
                     cameraPosition.Y -= 0.5f;
+                }
+
+                if (Player1K.IsKeyDown(Keys.A))
+                {
+                    cameraPosition.Z += 0.5f;
+                }
+                if (Player1K.IsKeyDown(Keys.Y))
+                {
+                    cameraPosition.Z -= 0.5f;
                 }
 
             }
