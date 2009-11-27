@@ -2,20 +2,6 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Graphics="Microsoft.Xna.Framework.Graphics" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>Models\Chessboard.FBX</Source>
-      <Name>Models\Chessboard</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\Chessboard.xnb</Output>
-      <Time>2009-11-25T15:49:26.6664+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\Chessboard_0.xml</Key>
-        <Value>2009-11-25T15:50:22.5934+01:00</Value>
-      </Dependency>
-      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\ChessboardTexture_0.xnb</Request>
-    </Item>
-    <Item>
       <Source>Models\PBlack\BlackBishop.FBX</Source>
       <Name>Models\PBlack\BlackBishop</Name>
       <Importer>FbxImporter</Importer>
@@ -184,28 +170,6 @@
       <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\PWhite\WhiteTexture_0.xnb</Request>
     </Item>
     <Item>
-      <Source>Models\Chessboard.FBX</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\Chessboard_0.xml</Output>
-      <Time>2009-11-25T15:49:26.6664+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\ChessboardTexture.jpg</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\ChessboardTexture_0.xnb</Output>
-      <Time>2009-11-25T15:49:26.6674+01:00</Time>
-    </Item>
-    <Item>
       <Source>Models\PBlack\BlackBishop.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
@@ -320,29 +284,127 @@
       <Time>2009-11-25T15:50:13.8354+01:00</Time>
     </Item>
     <Item>
-      <Source>Models\bauer11.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\bauer11_0.xml</Output>
-      <Time>2009-11-26T08:48:35.782+01:00</Time>
+      <Source>Models\Turm02Texture.jpg</Source>
+      <Name>Models\Turm02Texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\Turm02Texture.xnb</Output>
+      <Time>2009-11-26T09:39:49.268+01:00</Time>
     </Item>
     <Item>
-      <Source>Models\bauer11.x</Source>
-      <Name>Models\bauer11</Name>
-      <Importer>XImporter</Importer>
+      <Source>Models\Turm02Texture.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\Turm02Texture_0.xnb</Output>
+      <Time>2009-11-26T09:39:49.268+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\TurmFinalSchwarz03.fbx</Source>
+      <Name>Models\TurmFinalSchwarz03</Name>
+      <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\bauer11.xnb</Output>
-      <Time>0001-01-01T00:00:00</Time>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\TurmFinalSchwarz03.xnb</Output>
+      <Time>2009-11-26T09:31:11.874+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\TurmFinalSchwarz03_0.xml</Key>
+        <Value>2009-11-26T09:31:18.358+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\Turm02Texture_0.xnb</Request>
     </Item>
     <Item>
-      <Source>Models\bauer11.x</Source>
-      <Importer>XImporter</Importer>
+      <Source>Models\TurmFinalSchwarz03.fbx</Source>
+      <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\bauer11_1.xml</Output>
-      <Time>0001-01-01T00:00:00</Time>
+      <Output>obj\x86\Debug\Models\TurmFinalSchwarz03_0.xml</Output>
+      <Time>2009-11-26T09:31:11.874+01:00</Time>
     </Item>
-    <BuildSuccessful>false</BuildSuccessful>
+    <Item>
+      <Source>Models\Chessboard.FBX</Source>
+      <Name>Models\Chessboard</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\Chessboard.xnb</Output>
+      <Time>2009-11-26T09:32:37.348+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Chessboard_0.xml</Key>
+        <Value>2009-11-26T09:32:42.392+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\ChessboardTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Chessboard.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Chessboard_0.xml</Output>
+      <Time>2009-11-26T09:32:37.348+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\ChessboardTexture.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\ChessboardTexture_0.xnb</Output>
+      <Time>2009-11-25T15:49:26.6674+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\bauer118.fbx</Source>
+      <Name>Models\bauer118</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\bauer118.xnb</Output>
+      <Time>2009-11-26T09:44:37.737+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\bauer118_0.xml</Key>
+        <Value>2009-11-26T09:44:45.513+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\bauer119.fbx</Source>
+      <Name>Models\bauer119</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Koehler\Desktop\SVN\trunk\OBattleChess\OBattleChess\bin\x86\Debug\Content\Models\bauer119.xnb</Output>
+      <Time>2009-11-26T09:44:37.741+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\bauer119_0.xml</Key>
+        <Value>2009-11-26T09:44:46.641+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\bauer118.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\bauer118_0.xml</Output>
+      <Time>2009-11-26T09:44:37.737+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\bauer119.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\bauer119_0.xml</Output>
+      <Time>2009-11-26T09:44:37.741+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
