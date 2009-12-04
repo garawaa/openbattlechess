@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc>
+  <assembly>
+    <name>ccompiler</name>
+  </assembly>
+  <members>
+    <member name="T:EES.ContentCompiler.ContentCompiler">
+      <summary>This is the static ContentCompilerClass.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ContentCompiler.Initialize">
+      <summary>Initializes the Content Compiler</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ContentCompiler.BuildContent">
+      <summary>Builds the Files in the Files List in the specified Outputdirectory
+            using the given XNA Version. See Documentation for more Details.</summary>
+      <returns/>
+    </member>
+    <member name="P:EES.ContentCompiler.ContentCompiler.OutputDirectory">
+      <summary>The Path where the compiled Files will be placed in.</summary>
+    </member>
+    <member name="P:EES.ContentCompiler.ContentCompiler.Files">
+      <summary>The Files that will be compiled. Use only Formats that
+            are supported by the default XNA Importers!</summary>
+    </member>
+    <member name="P:EES.ContentCompiler.ContentCompiler.XNAVersion">
+      <summary>The Version of XNA the Content will be compiled with.
+            Documentation contains more Information.</summary>
+    </member>
+    <member name="T:EES.ContentCompiler.ErrorLogger">
+      <summary>Custom implementation of the MSBuild ILogger interface records
+            content build errors so we can later display them to the user.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ErrorLogger.Initialize(Microsoft.Build.Framework.IEventSource)">
+      <summary>Initializes the custom logger, hooking the ErrorRaised notification event.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ErrorLogger.Shutdown">
+      <summary>Shuts down the custom logger.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ErrorLogger.ErrorRaised(System.Object,Microsoft.Build.Framework.BuildErrorEventArgs)">
+      <summary>Handles error notification events by storing the error message string.</summary>
+    </member>
+    <member name="P:EES.ContentCompiler.ErrorLogger.Errors">
+      <summary>Gets a list of all the errors that have been logged.</summary>
+    </member>
+    <member name="P:EES.ContentCompiler.ErrorLogger.Microsoft#Build#Framework#ILogger#Parameters">
+      <summary>Implement the ILogger.Parameters property.</summary>
+    </member>
+    <member name="P:EES.ContentCompiler.ErrorLogger.Microsoft#Build#Framework#ILogger#Verbosity">
+      <summary>Implement the ILogger.Verbosity property.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.GraphicsDeviceService.Release(System.Boolean)">
+      <summary>Releases a reference to the singleton instance.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.GraphicsDeviceService.ResetDevice(System.Int32,System.Int32)">
+      <summary>Resets the graphics device to whichever is bigger out of the specified
+            resolution or its current size. This behavior means the device will
+            demand-grow to the largest of all its GraphicsDeviceControl clients.</summary>
+    </member>
+    <member name="P:EES.ContentCompiler.GraphicsDeviceService.GraphicsDevice">
+      <summary>Gets the current graphics device.</summary>
+    </member>
+    <member name="T:EES.ContentCompiler.ContentBuilder">
+      <summary>This class wraps the MSBuild functionality needed to build XNA Framework
+            content dynamically at runtime. It creates a temporary MSBuild project
+            in memory, and adds whatever content files you choose to this project.
+            It then builds the project, which will create compiled .xnb content files
+            in a temporary directory. After the build finishes, you can use a regular
+            ContentManager to load these temporary .xnb files in the usual way.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ContentBuilder.#ctor">
+      <summary>Creates a new content builder.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ContentBuilder.Dispose">
+      <summary>Disposes the content builder when it is no longer required.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ContentBuilder.Finalize">
+      <summary>Finalizes the content builder.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ContentBuilder.Dispose(System.Boolean)">
+      <summary>Implements the standard .NET IDisposable pattern.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ContentBuilder.CreateBuildProject">
+      <summary>Creates a temporary MSBuild content project in memory.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ContentBuilder.Add(System.String,System.String,System.String,System.String)">
+      <summary>Adds a new content file to the MSBuild project. The importer and
+            processor are optional: if you leave the importer null, it will
+            be autodetected based on the file extension, and if you leave the
+            processor null, data will be passed through without any processing.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ContentBuilder.Clear">
+      <summary>Removes all content files from the MSBuild project.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ContentBuilder.Build">
+      <summary>Builds all the content files which have been added to the project,
+            dynamically creating .xnb files in the OutputDirectory.
+            Returns an error message if the build fails.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ContentBuilder.CreateTempDirectory">
+      <summary>Creates a temporary directory in which to build content.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ContentBuilder.DeleteTempDirectory">
+      <summary>Deletes our temporary directory when we are finished with it.</summary>
+    </member>
+    <member name="M:EES.ContentCompiler.ContentBuilder.PurgeStaleTempDirectories">
+      <summary>Ideally, we want to delete our temp directory when we are finished using
+            it. The DeleteTempDirectory method (called by whichever happens first out
+            of Dispose or our finalizer) does exactly that. Trouble is, sometimes
+            these cleanup methods may never execute. For instance if the program
+            crashes, or is halted using the debugger, we never get a chance to do
+            our deleting. The next time we start up, this method checks for any temp
+            directories that were left over by previous runs which failed to shut
+            down cleanly. This makes sure these orphaned directories will not just
+            be left lying around forever.</summary>
+    </member>
+  </members>
+</doc>
