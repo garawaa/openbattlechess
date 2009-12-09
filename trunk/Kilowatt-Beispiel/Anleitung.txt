@@ -1,0 +1,14 @@
+Beschreibung:
+
+Dieses Beispiel-Programm lädt entweder normal für XNA kompilierte 3D-Modelle oder über die neue KiloWatt-Schnittstelle.
+
+
+Anleitung:
+Den zu ladenden Dateinamen (ohne Erweiterung) normal über die Tastatur eingeben und mit Enter bestätigen. Gültige Dateinamen sind die unter \Data\Models\ abgelegten Dateien, Umlaute, Punkte und Zahlen sind nicht zulässig.
+Beginnt der Dateiname mit "kW", wird es als KiloWatt-Model geladen, andernfalls als normales XNA-Model.
+
+
+Bedienung:
+* Mit <TAB> zwischen normalem und KiloWatt-Rendermodus wechsel (wenn möglich)
+* Linke Maustaste + Maus bewegen : Kamera um das Objekt herumrotieren
+* Mausrad : Zoomen

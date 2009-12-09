@@ -1,0 +1,7 @@
+D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\Modell-Lader\Modell-Lader\Lib\KiloWatt\Pipeline\bin\x86\Debug\KiloWatt.Pipeline.dll
+D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\Modell-Lader\Modell-Lader\Lib\KiloWatt\Pipeline\bin\x86\Debug\KiloWatt.Pipeline.pdb
+D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\Modell-Lader\Modell-Lader\Lib\KiloWatt\Pipeline\bin\x86\Debug\KiloWatt.Base.dll
+D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\Modell-Lader\Modell-Lader\Lib\KiloWatt\Pipeline\bin\x86\Debug\KiloWatt.Base.pdb
+D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\Modell-Lader\Modell-Lader\Lib\KiloWatt\Pipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\Modell-Lader\Modell-Lader\Lib\KiloWatt\Pipeline\obj\x86\Debug\KiloWatt.Pipeline.dll
+D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\Modell-Lader\Modell-Lader\Lib\KiloWatt\Pipeline\obj\x86\Debug\KiloWatt.Pipeline.pdb

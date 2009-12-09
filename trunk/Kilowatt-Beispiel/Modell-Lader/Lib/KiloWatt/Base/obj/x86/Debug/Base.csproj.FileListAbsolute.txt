@@ -1,0 +1,6 @@
+D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\Modell-Lader\Modell-Lader\Lib\KiloWatt\Base\bin\x86\Debug\KiloWatt.Base.dll
+D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\Modell-Lader\Modell-Lader\Lib\KiloWatt\Base\bin\x86\Debug\KiloWatt.Base.pdb
+D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\Modell-Lader\Modell-Lader\Lib\KiloWatt\Base\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\Modell-Lader\Modell-Lader\Lib\KiloWatt\Base\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\Modell-Lader\Modell-Lader\Lib\KiloWatt\Base\obj\x86\Debug\KiloWatt.Base.dll
+D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\Modell-Lader\Modell-Lader\Lib\KiloWatt\Base\obj\x86\Debug\KiloWatt.Base.pdb
