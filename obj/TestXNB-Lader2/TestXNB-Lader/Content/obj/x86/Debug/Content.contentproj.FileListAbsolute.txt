@@ -1,2 +1,0 @@
-D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\TestXNB-Lader\TestXNB-Lader\Content\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\Eigene Dateien\Projekte\Informatik Augustin\EPRO BattleChess\TestXNB-Lader2\TestXNB-Lader\Content\obj\x86\Debug\ResolveAssemblyReference.cache
